@@ -1,0 +1,37 @@
+.calculator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.display {
+    background-color: black;
+    color: aliceblue;
+    font-size: 32px;
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 5px;
+    width: 710px;
+    height: 60px;
+    box-sizing: border-box;
+}
+
+.calculator-btn {
+    width: 720px;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+.calculator-btn td {
+    padding: 5px;
+}
+
+.btn, .allclear, .equal {
+    font-size: 24px;
+    height: 60px;
+    width: 100%;
+    box-sizing: border-box;
+}
